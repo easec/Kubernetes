@@ -6,7 +6,7 @@ sudo apt-get update
 
 echo -n "Installerar grund"
 
-sudo apt-get install -y apt-transport-https ca-certificates curl software-properties-common openssh-server git
+sudo apt-get install -y apt-transport-https ca-certificates curl software-properties-common openssh-server git net-tools
 
 echo -n "Hämtar nyckel för arkiv på Docker"
 
