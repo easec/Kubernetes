@@ -30,5 +30,9 @@ sudo usermod -aG docker $USER
 
 echo -n "Användare tillagd"
 
+echo -n "Hämtar bakgrundsbild"
+
+wget https://stordevsumj.blob.core.windows.net/easec/easec.png -P /home/easec
+
 echo -n "Klart"
 
