@@ -4,7 +4,7 @@ metadata:
   name: nfs-0002
 spec:
   capacity:
-    storage: 2Gi
+    storage: 5Gi
   accessModes:
     - ReadWriteOnce
     - ReadWriteMany
