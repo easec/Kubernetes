@@ -6,7 +6,7 @@ metadata:
     name: www-local
 spec:
   containers:
-  - name: www
+  - name: www-local
     image: nginx:alpine
     ports:
       - containerPort: 80
