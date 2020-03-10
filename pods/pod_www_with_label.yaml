@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: www
+  labels:
+    env: test
+spec:
+  containers:
+  - name: www
+    image: easec/php-webb
+    imagePullPolicy: IfNotPresent
+  nodeSelector:
+    disktype: ssd
