@@ -8,7 +8,7 @@ spec:
   accessModes:
   - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
-  storageClassName: my-local-storage
+  storageClassName: local-storage-mysql-web
   local:
     path: /mnt/disk/vol1
   nodeAffinity:
