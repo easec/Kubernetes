@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: clusterip-demo-service
+  name: externalname-demo-service
 spec:
   ports:
   - port: 3000
