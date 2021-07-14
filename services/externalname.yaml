@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: service-python
+spec:
+  ports:
+  - port: 3000
+    protocol: TCP
+    targetPort: 443
+  type: ExternalName
+  externalName: remote.server.url.com
